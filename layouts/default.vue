@@ -125,6 +125,7 @@
       <v-footer :fixed="false">
         <div>
           <div style="vertical-align: middle;">
+            <!-- TODO 页脚 作者地址 仓库地址 -->
             <span>&copy;</span>
             <span>
               <a href="https://space.bilibili.com/487446531" target="_blank" rel="noreferrer">
@@ -243,6 +244,10 @@ export default {
       },
       drawer: false,
       fixed: false,
+      /**
+       * TODO
+       * 各种外链
+       */
       nav_items: [
         {
           icon: '/img/youtube-fill.svg',

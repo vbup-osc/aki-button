@@ -44,6 +44,10 @@ export default {
       .then(res => {
         this.links = this.shuffle(
           res.data.filter(function (el) {
+            /**
+             * TODO
+             * 排除自己
+             */
             return el.title !== 'miko';
           })
         );
